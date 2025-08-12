@@ -1,0 +1,17 @@
+﻿subreddit,Normalized_Sentiment,Normalized_Civility,Normalized_Empathy,Normalized_Helpfulness,Normalized_Relevance,CHS_qual
+AskHR,225,425,550,500,800,500
+Entrepreneurship,425,500,500,125,300,370
+MLQuestions,550,725,600,550,650,615
+Parenting,700,750,750,625,725,710
+ProductManagement,400,500,475,300,525,440
+Seattle,500,575,500,75,200,370
+True_Anarchy,444.4444444,527.7777778,361.1111111,111.1111111,333.3333333,355.56
+TwoXChromosomes,600,650,675,625,825,675
+consulting,475,500,500,100,225,360
+datascience,550,525,500,175,275,405
+depression,350,475,625,400,600,490
+farming,375,550,475,250,425,415
+iCheckMovies,575,600,475,225,450,465
+lgbt,600,650,525,250,275,460
+personalfinance,500,725,625,700,800,670
+sysadmin,350,500,425,575,750,520

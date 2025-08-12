@@ -7,6 +7,7 @@
     "Normalized_Empathy": "535.5",
     "Normalized_Helpfulness": "518.5",
     "Normalized_Relevance": "782.5",
+    "CHI_Score": "652.9242261",
     "Subscribers": "1810000",
     "Posts": "100",
     "Members_Factor": "6.257187376",
@@ -15,8 +16,7 @@
     "Responsiveness": "10.2",
     "Interaction": "5.231909613",
     "Health_Grade": "B",
-    "CHS_composite": 603,
-    "CHS_quan": "652.9242261"
+    "CHS_composite": 523
   },
   {
     "subreddit": "Parenting",
@@ -26,6 +26,7 @@
     "Normalized_Empathy": "842.5",
     "Normalized_Helpfulness": "680.5",
     "Normalized_Relevance": "892.5",
+    "CHI_Score": "714.9231148",
     "Subscribers": "8200000",
     "Posts": "100",
     "Members_Factor": "6.911741728",
@@ -34,8 +35,7 @@
     "Responsiveness": "8.759158214",
     "Interaction": "10.1",
     "Health_Grade": "B",
-    "CHS_composite": 746,
-    "CHS_quan": "714.9231148"
+    "CHS_composite": 790
   },
   {
     "subreddit": "Seattle",
@@ -45,6 +45,7 @@
     "Normalized_Empathy": "418.5",
     "Normalized_Helpfulness": "115.5",
     "Normalized_Relevance": "268.5",
+    "CHI_Score": "720.8765503",
     "Subscribers": "730000",
     "Posts": "100",
     "Members_Factor": "5.860720616",
@@ -53,8 +54,7 @@
     "Responsiveness": "10.1",
     "Interaction": "10.05",
     "Health_Grade": "B",
-    "CHS_composite": 572,
-    "CHS_quan": "720.8765503"
+    "CHS_composite": 348
   },
   {
     "subreddit": "TwoXChromosomes",
@@ -64,6 +64,7 @@
     "Normalized_Empathy": "615.5",
     "Normalized_Helpfulness": "555.5",
     "Normalized_Relevance": "805.5",
+    "CHI_Score": "734.1591473",
     "Subscribers": "13700000",
     "Posts": "100",
     "Members_Factor": "7.134334216",
@@ -72,8 +73,7 @@
     "Responsiveness": "10.05",
     "Interaction": "10.02",
     "Health_Grade": "B",
-    "CHS_composite": 680,
-    "CHS_quan": "734.1591473"
+    "CHS_composite": 600
   },
   {
     "subreddit": "consulting",
@@ -83,6 +83,7 @@
     "Normalized_Empathy": "515.5",
     "Normalized_Helpfulness": "105.5",
     "Normalized_Relevance": "230.5",
+    "CHI_Score": "670.2202465",
     "Subscribers": "328000",
     "Posts": "100",
     "Members_Factor": "5.512381512",
@@ -91,8 +92,7 @@
     "Responsiveness": "10.1",
     "Interaction": "6.203785575",
     "Health_Grade": "B",
-    "CHS_composite": 551,
-    "CHS_quan": "670.2202465"
+    "CHS_composite": 370
   },
   {
     "subreddit": "datascience",
@@ -102,6 +102,7 @@
     "Normalized_Empathy": "540.5",
     "Normalized_Helpfulness": "92.5",
     "Normalized_Relevance": "232.5",
+    "CHI_Score": "610.8956907",
     "Subscribers": "2700000",
     "Posts": "100",
     "Members_Factor": "6.428782511",
@@ -110,8 +111,7 @@
     "Responsiveness": "2.713664397",
     "Interaction": "5.901312513",
     "Health_Grade": "B",
-    "CHS_composite": 522,
-    "CHS_quan": "610.8956907"
+    "CHS_composite": 388
   },
   {
     "subreddit": "depression",
@@ -121,6 +121,7 @@
     "Normalized_Empathy": "567.5",
     "Normalized_Helpfulness": "305.5",
     "Normalized_Relevance": "605.5",
+    "CHI_Score": "688.0276664",
     "Subscribers": "1100000",
     "Posts": "100",
     "Members_Factor": "6.038550224",
@@ -129,8 +130,7 @@
     "Responsiveness": "10.05",
     "Interaction": "7.563028876",
     "Health_Grade": "B",
-    "CHS_composite": 594,
-    "CHS_quan": "688.0276664"
+    "CHS_composite": 453
   },
   {
     "subreddit": "iCheckMovies",
@@ -140,6 +140,7 @@
     "Normalized_Empathy": "467.5",
     "Normalized_Helpfulness": "267.5",
     "Normalized_Relevance": "380.5",
+    "CHI_Score": "5",
     "Subscribers": "640",
     "Posts": "1",
     "Members_Factor": "2.802773725",
@@ -148,8 +149,7 @@
     "Responsiveness": "0.664074119",
     "Interaction": "1.832050808",
     "Health_Grade": "F",
-    "CHS_composite": 181,
-    "CHS_quan": "5"
+    "CHS_composite": 445
   },
   {
     "subreddit": "sysadmin",
@@ -159,6 +159,7 @@
     "Normalized_Empathy": "455.5",
     "Normalized_Helpfulness": "480.5",
     "Normalized_Relevance": "680.5",
+    "CHI_Score": "714.6166849",
     "Subscribers": "1125000",
     "Posts": "100",
     "Members_Factor": "6.048686851",
@@ -167,8 +168,7 @@
     "Responsiveness": "10.02",
     "Interaction": "10.05",
     "Health_Grade": "B",
-    "CHS_composite": 635,
-    "CHS_quan": "714.6166849"
+    "CHS_composite": 516
   },
   {
     "subreddit": "MLQuestions",
@@ -178,6 +178,7 @@
     "Normalized_Empathy": "530.5",
     "Normalized_Helpfulness": "467.5",
     "Normalized_Relevance": "592.5",
+    "CHI_Score": "565.9666549",
     "Subscribers": "81000",
     "Posts": "100",
     "Members_Factor": "4.905860615",
@@ -186,8 +187,7 @@
     "Responsiveness": "4.229096911",
     "Interaction": "3.582017295",
     "Health_Grade": "C",
-    "CHS_composite": 551,
-    "CHS_quan": "565.9666549"
+    "CHS_composite": 528
   },
   {
     "subreddit": "ProductManagement",
@@ -197,6 +197,7 @@
     "Normalized_Empathy": "492.5",
     "Normalized_Helpfulness": "330.5",
     "Normalized_Relevance": "530.5",
+    "CHI_Score": "666.8809139",
     "Subscribers": "2685000",
     "Posts": "100",
     "Members_Factor": "6.428782511",
@@ -205,8 +206,7 @@
     "Responsiveness": "2.713664397",
     "Interaction": "6.477330144",
     "Health_Grade": "B",
-    "CHS_composite": 590,
-    "CHS_quan": "666.8809139"
+    "CHS_composite": 475
   },
   {
     "subreddit": "farming",
@@ -216,6 +216,7 @@
     "Normalized_Empathy": "405.5",
     "Normalized_Helpfulness": "205.5",
     "Normalized_Relevance": "392.5",
+    "CHI_Score": "559.5468958",
     "Subscribers": "193000",
     "Posts": "100",
     "Members_Factor": "5.28295954",
@@ -224,8 +225,7 @@
     "Responsiveness": "1.552944373",
     "Interaction": "4.961588081",
     "Health_Grade": "C",
-    "CHS_composite": 485,
-    "CHS_quan": "559.5468958"
+    "CHS_composite": 373
   },
   {
     "subreddit": "personalfinance",
@@ -235,6 +235,7 @@
     "Normalized_Empathy": "542.5",
     "Normalized_Helpfulness": "630.5",
     "Normalized_Relevance": "817.5",
+    "CHI_Score": "721.6632438",
     "Subscribers": "21400000",
     "Posts": "100",
     "Members_Factor": "7.327577233",
@@ -243,8 +244,7 @@
     "Responsiveness": "10.02",
     "Interaction": "10.05",
     "Health_Grade": "B",
-    "CHS_composite": 689,
-    "CHS_quan": "721.6632438"
+    "CHS_composite": 640
   },
   {
     "subreddit": "lgbt",
@@ -254,6 +254,7 @@
     "Normalized_Empathy": "592.5",
     "Normalized_Helpfulness": "305.5",
     "Normalized_Relevance": "492.5",
+    "CHI_Score": "730.435586",
     "Subscribers": "1200000",
     "Posts": "100",
     "Members_Factor": "6.076031714",
@@ -262,8 +263,7 @@
     "Responsiveness": "10.05",
     "Interaction": "10.02",
     "Health_Grade": "B",
-    "CHS_composite": 621,
-    "CHS_quan": "730.435586"
+    "CHS_composite": 458
   },
   {
     "subreddit": "Entrepreneurship",
@@ -273,6 +273,7 @@
     "Normalized_Empathy": "330.5",
     "Normalized_Helpfulness": "567.5",
     "Normalized_Relevance": "642.5",
+    "CHI_Score": "634.8006383",
     "Subscribers": "92500",
     "Posts": "100",
     "Members_Factor": "4.96393886",
@@ -281,8 +282,7 @@
     "Responsiveness": "10.05",
     "Interaction": "4.511122306",
     "Health_Grade": "B",
-    "CHS_composite": 588,
-    "CHS_quan": "634.8006383"
+    "CHS_composite": 518
   },
   {
     "subreddit": "True_Anarchy",
@@ -292,6 +292,7 @@
     "Normalized_Empathy": "380.5",
     "Normalized_Helpfulness": "5.5",
     "Normalized_Relevance": "5.5",
+    "CHI_Score": "2",
     "Subscribers": "22",
     "Posts": "1",
     "Members_Factor": "1.322219295",
@@ -300,7 +301,6 @@
     "Responsiveness": "1.05",
     "Interaction": "0.1",
     "Health_Grade": "F",
-    "CHS_composite": 103,
-    "CHS_quan": "2"
+    "CHS_composite": 256
   }
 ]

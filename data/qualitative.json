@@ -1,0 +1,146 @@
+[
+  {
+    "subreddit": "AskHR",
+    "Normalized_Sentiment": "287.5",
+    "Normalized_Civility": "475",
+    "Normalized_Empathy": "525",
+    "Normalized_Helpfulness": "512.5",
+    "Normalized_Relevance": "775",
+    "CHS_qual": "515"
+  },
+  {
+    "subreddit": "Parenting",
+    "Normalized_Sentiment": "700",
+    "Normalized_Civility": "825",
+    "Normalized_Empathy": "837.5",
+    "Normalized_Helpfulness": "675",
+    "Normalized_Relevance": "887.5",
+    "CHS_qual": "785"
+  },
+  {
+    "subreddit": "Seattle",
+    "Normalized_Sentiment": "462.5",
+    "Normalized_Civility": "462.5",
+    "Normalized_Empathy": "412.5",
+    "Normalized_Helpfulness": "112.5",
+    "Normalized_Relevance": "262.5",
+    "CHS_qual": "342.5"
+  },
+  {
+    "subreddit": "TwoXChromosomes",
+    "Normalized_Sentiment": "400",
+    "Normalized_Civility": "612.5",
+    "Normalized_Empathy": "612.5",
+    "Normalized_Helpfulness": "550",
+    "Normalized_Relevance": "800",
+    "CHS_qual": "595"
+  },
+  {
+    "subreddit": "consulting",
+    "Normalized_Sentiment": "475",
+    "Normalized_Civility": "512.5",
+    "Normalized_Empathy": "512.5",
+    "Normalized_Helpfulness": "100",
+    "Normalized_Relevance": "225",
+    "CHS_qual": "365"
+  },
+  {
+    "subreddit": "datascience",
+    "Normalized_Sentiment": "525",
+    "Normalized_Civility": "537.5",
+    "Normalized_Empathy": "537.5",
+    "Normalized_Helpfulness": "87.5",
+    "Normalized_Relevance": "225",
+    "CHS_qual": "382.5"
+  },
+  {
+    "subreddit": "depression",
+    "Normalized_Sentiment": "287.5",
+    "Normalized_Civility": "487.5",
+    "Normalized_Empathy": "562.5",
+    "Normalized_Helpfulness": "300",
+    "Normalized_Relevance": "600",
+    "CHS_qual": "447.5"
+  },
+  {
+    "subreddit": "iCheckMovies",
+    "Normalized_Sentiment": "500",
+    "Normalized_Civility": "600",
+    "Normalized_Empathy": "462.5",
+    "Normalized_Helpfulness": "262.5",
+    "Normalized_Relevance": "375",
+    "CHS_qual": "440"
+  },
+  {
+    "subreddit": "sysadmin",
+    "Normalized_Sentiment": "375",
+    "Normalized_Civility": "575",
+    "Normalized_Empathy": "450",
+    "Normalized_Helpfulness": "475",
+    "Normalized_Relevance": "675",
+    "CHS_qual": "510"
+  },
+  {
+    "subreddit": "MLQuestions",
+    "Normalized_Sentiment": "437.5",
+    "Normalized_Civility": "600",
+    "Normalized_Empathy": "525",
+    "Normalized_Helpfulness": "462.5",
+    "Normalized_Relevance": "587.5",
+    "CHS_qual": "522.5"
+  },
+  {
+    "subreddit": "ProductManagement",
+    "Normalized_Sentiment": "450",
+    "Normalized_Civility": "562.5",
+    "Normalized_Empathy": "487.5",
+    "Normalized_Helpfulness": "325",
+    "Normalized_Relevance": "525",
+    "CHS_qual": "470"
+  },
+  {
+    "subreddit": "farming",
+    "Normalized_Sentiment": "350",
+    "Normalized_Civility": "500",
+    "Normalized_Empathy": "400",
+    "Normalized_Helpfulness": "200",
+    "Normalized_Relevance": "387.5",
+    "CHS_qual": "367.5"
+  },
+  {
+    "subreddit": "personalfinance",
+    "Normalized_Sentiment": "525",
+    "Normalized_Civility": "675",
+    "Normalized_Empathy": "537.5",
+    "Normalized_Helpfulness": "625",
+    "Normalized_Relevance": "812.5",
+    "CHS_qual": "635"
+  },
+  {
+    "subreddit": "Entrepreneurship",
+    "Normalized_Sentiment": "487.5",
+    "Normalized_Civility": "550",
+    "Normalized_Empathy": "325",
+    "Normalized_Helpfulness": "562.5",
+    "Normalized_Relevance": "637.5",
+    "CHS_qual": "512.5"
+  },
+  {
+    "subreddit": "True_Anarchy",
+    "Normalized_Sentiment": "375",
+    "Normalized_Civility": "500",
+    "Normalized_Empathy": "375",
+    "Normalized_Helpfulness": "0",
+    "Normalized_Relevance": "0",
+    "CHS_qual": "250"
+  },
+  {
+    "subreddit": "lgbt",
+    "Normalized_Sentiment": "387.5",
+    "Normalized_Civility": "500",
+    "Normalized_Empathy": "587.5",
+    "Normalized_Helpfulness": "300",
+    "Normalized_Relevance": "487.5",
+    "CHS_qual": "452.5"
+  }
+]

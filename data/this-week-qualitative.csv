@@ -1,0 +1,17 @@
+subreddit,CHS_qual,Normalized_Sentiment,Normalized_Civility,Normalized_Empathy,Normalized_Helpfulness,Normalized_Relevance
+AskHR,528,295.5,482.5,535.5,518.5,782.5
+Parenting,792,705.5,830.5,842.5,680.5,892.5
+Seattle,348.5,468.5,470.5,418.5,115.5,268.5
+TwoXChromosomes,598,405.5,618.5,615.5,555.5,805.5
+consulting,372,480.5,518.5,515.5,105.5,230.5
+datascience,388.5,530.5,542.5,540.5,92.5,232.5
+depression,452.5,292.5,492.5,567.5,305.5,605.5
+iCheckMovies,445,505.5,605.5,467.5,267.5,380.5
+sysadmin,515,380.5,580.5,455.5,480.5,680.5
+MLQuestions,527.5,442.5,605.5,530.5,467.5,592.5
+ProductManagement,475,455.5,567.5,492.5,330.5,530.5
+farming,372.5,355.5,505.5,405.5,205.5,392.5
+personalfinance,640,530.5,680.5,542.5,630.5,817.5
+lgbt,457.5,392.5,505.5,592.5,305.5,492.5
+Entrepreneurship,517.5,492.5,555.5,330.5,567.5,642.5
+True_Anarchy,255,380.5,505.5,380.5,5.5,5.5 

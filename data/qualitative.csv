@@ -1,0 +1,23 @@
+﻿import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+subreddit,Normalized_Sentiment,Normalized_Civility,Normalized_Empathy,Normalized_Helpfulness,Normalized_Relevance,CHS_qual
+AskHR,287.5,475,525,512.5,775,515
+Parenting,700,825,837.5,675,887.5,785
+Seattle,462.5,462.5,412.5,112.5,262.5,342.5
+TwoXChromosomes,400,612.5,612.5,550,800,595
+consulting,475,512.5,512.5,100,225,365
+datascience,525,537.5,537.5,87.5,225,382.5
+depression,287.5,487.5,562.5,300,600,447.5
+iCheckMovies,500,600,462.5,262.5,375,440
+sysadmin,375,575,450,475,675,510
+MLQuestions,437.5,600,525,462.5,587.5,522.5
+ProductManagement,450,562.5,487.5,325,525,470
+farming,350,500,400,200,387.5,367.5
+personalfinance,525,675,537.5,625,812.5,635
+Entrepreneur,487.5,550,325,562.5,637.5,512.5
+True_Anarchy,375,500,375,0,0,250
+lgbt,387.5,500,587.5,300,487.5,452.5
