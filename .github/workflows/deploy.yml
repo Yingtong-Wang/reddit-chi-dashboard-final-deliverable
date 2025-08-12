@@ -1,11 +1,13 @@
-name: Deploy
+name: Build and Test
 
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  deploy:
+  build-and-test:
     runs-on: ubuntu-latest
     
     steps:
@@ -23,10 +25,12 @@ jobs:
     - name: Build project
       run: npm run build
     
-    - name: Deploy to Vercel
-      uses: amondnet/vercel-action@v25
-      with:
-        vercel-token: ${{ secrets.VERCEL_TOKEN }}
-        vercel-org-id: ${{ secrets.ORG_ID }}
-        vercel-project-id: ${{ secrets.PROJECT_ID }}
-        vercel-args: '--prod' 
+    - name: Test build output
+      run: |
+        if [ -d ".next" ]; then
+          echo "✅ Build successful - .next directory created"
+          ls -la .next/
+        else
+          echo "❌ Build failed - .next directory not found"
+          exit 1
+        fi 
