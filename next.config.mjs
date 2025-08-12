@@ -1,14 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable static export for GitHub Pages
+  output: 'export',
+  
+  // Disable image optimization for static export
+  images: {
+    unoptimized: true,
+  },
+  
+  // Ignore ESLint and TypeScript errors during build
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
-  },
+  
+  // Base path for GitHub Pages (update this with your repo name)
+  basePath: process.env.NODE_ENV === 'production' ? '/reddit-chi-dashboard' : '',
+  
+  // Trailing slash for GitHub Pages compatibility
+  trailingSlash: true,
 }
 
 export default nextConfig

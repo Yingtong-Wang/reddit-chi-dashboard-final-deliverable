@@ -1,155 +1,219 @@
-# Reddit Community Health Index (CHI) Dashboard
+# Reddit CHI Dashboard
 
-A comprehensive dashboard for analyzing and monitoring community health scores across various Reddit subreddits. This tool provides insights into community engagement, sentiment, and overall health metrics.
+A comprehensive dashboard for analyzing and visualizing Reddit Community Health Index (CHI) data across multiple subreddits and time periods.
 
-## 🚀 Features
+## 🎯 **Features**
 
-- **Compare All Communities**: Visual comparison of CHS Composite scores across all subreddits
-- **Health Overview**: Individual subreddit health status with detailed metrics
-- **Community Drilldown**: In-depth analysis with radar charts and performance indicators
-- **Metrics & Statistics**: Comprehensive performance metrics and community statistics
-- **Actionable Insights**: Week-specific insights and recommended actions for improvement
-- **Week Selection**: Toggle between different data periods (Week 1, Week 2, Week 3)
+- **Compare All Communities**: Side-by-side analysis of subreddit health metrics
+- **Health Overview**: Interactive charts showing community health status
+- **Community Drilldown**: Detailed qualitative and quantitative analysis
+- **Metrics & Stats**: Performance indicators and community statistics
+- **Actionable Insights**: Data-driven recommendations for improvement
+- **Communities Needing Attention**: Priority identification for at-risk communities
 
-## 📊 Dashboard Sections
+## 🏗️ **Technology Stack**
+
+- **Frontend**: Next.js 15, React 19, TypeScript
+- **Styling**: Tailwind CSS, Radix UI Components
+- **Charts**: Recharts (Bar, Line, Radar charts)
+- **State Management**: React Context API
+- **Build Tool**: Next.js with optimized production builds
+
+## 📊 **Dashboard Sections**
 
 ### 1. Compare All Communities
-- Horizontal bar chart showing CHS Composite scores
-- Communities Needing Attention card highlighting lowest performers
-- Interactive chart with click-to-select functionality
+- Composite Community Health Score visualization
+- Communities Needing Attention (top 3 at-risk)
+- Interactive bar charts with click-to-drill functionality
 
 ### 2. Health Overview
-- Community health status visualization
-- Status indicators (At-Risk, Developing, Healthy, Exemplary)
-- Health grade display
+- Community Health Status with color-coded indicators
+- Status badges and health grades
+- Real-time data updates
 
 ### 3. Community Drilldown
-- Detailed metrics breakdown
-- Radar charts for qualitative factors
-- Performance trend analysis
+- Qualitative Health Radar charts
+- Weekly progression trends
+- Multi-dimensional assessment metrics
 
-### 4. Metrics & Statistics
+### 4. Metrics & Stats
 - Quantitative performance metrics
 - Community statistics (subscribers, posts, health grade)
-- Performance indicators
+- Progress indicators and visualizations
 
 ### 5. Actionable Insights
-- Current insights for selected subreddit
+- Current insights with bullet-point formatting
 - Recommended actions for improvement
 - Week-specific recommendations
 
-## 🛠️ Technology Stack
-
-- **Frontend**: Next.js 15.2.4, React 19
-- **Styling**: Tailwind CSS
-- **Charts**: Recharts
-- **UI Components**: Radix UI
-- **Language**: TypeScript
-- **Package Manager**: npm
-
-## 📁 Project Structure
-
-```
-AIP/
-├── app/                    # Next.js app directory
-├── components/            # React components
-│   ├── ui/               # UI components (buttons, cards, etc.)
-│   ├── week-selector.tsx # Week selection component
-│   └── weekly-changes.tsx
-├── contexts/             # React contexts
-│   └── data-context.tsx  # Data management context
-├── data/                 # Data files
-│   ├── insights.json     # Processed insights data
-│   ├── week-1.json      # Week 1 data
-│   ├── week-2.json      # Week 2 data
-│   └── week-3.json      # Week 3 data
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility functions
-├── scripts/              # Data processing scripts
-└── styles/               # Global styles
-```
-
-## 🚀 Getting Started
+## 🚀 **Getting Started**
 
 ### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
+- Node.js 20.x or later
+- npm or yarn package manager
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd AIP
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/reddit-chi-dashboard.git
+   cd reddit-chi-dashboard
+   ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-3. Run the development server:
-```bash
-npm run dev
-```
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📊 Data Sources
-
-The dashboard uses processed data from CSV files:
-- **Week 1**: `Expanded_Insights_July17.csv`
-- **Week 2**: `Expanded_Insights_July25.csv`
-- **Week 3**: Available for future data
-
-Data is processed using scripts in the `scripts/` directory and converted to JSON format for the dashboard.
-
-## 🔧 Available Scripts
+### Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+- `npm run lint` - Run ESLint (when configured)
 
-## 📈 Data Processing
+## 📁 **Project Structure**
 
-To update insights data:
+```
+reddit-chi-dashboard/
+├── app/                    # Next.js app directory
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout component
+│   └── page.tsx           # Main page component
+├── components/             # Reusable UI components
+│   ├── ui/                # Radix UI components
+│   ├── week-selector.tsx  # Week selection component
+│   └── weekly-changes.tsx # Weekly changes component
+├── contexts/               # React context providers
+│   └── data-context.tsx   # Data management context
+├── data/                   # Data files and JSON
+│   ├── combined.json      # Combined dataset
+│   ├── insights.json      # Actionable insights
+│   └── week-*.json        # Weekly data files
+├── hooks/                  # Custom React hooks
+├── lib/                    # Utility functions
+├── public/                 # Static assets
+├── scripts/                # Data processing scripts
+└── .github/                # GitHub configuration
+    └── workflows/          # CI/CD workflows
+```
 
-1. Place new CSV files in the `data/` directory
-2. Update `scripts/convert-insights-to-json.ts` with new file paths
-3. Run: `npx ts-node scripts/convert-insights-to-json.ts`
+## 🌐 **Deployed Dashboard**
 
-## 🌐 Deployment
+**Live Dashboard**: [https://yourusername.github.io/reddit-chi-dashboard](https://yourusername.github.io/reddit-chi-dashboard)
 
-### Vercel (Recommended)
-1. Connect your GitHub repository to Vercel
-2. Vercel will automatically detect Next.js and deploy
-3. Set environment variables if needed
+*Note: Update this URL after setting up GitHub Pages deployment*
 
-### Other Platforms
-- Build the project: `npm run build`
-- Deploy the `out/` directory to your hosting platform
+## 🔧 **Data Sources**
 
-## 🤝 Contributing
+The dashboard integrates data from multiple sources:
+- **Quantitative Metrics**: Community health scores, engagement metrics
+- **Qualitative Assessments**: Multi-dimensional health evaluations
+- **Weekly Insights**: Time-based recommendations and analysis
+- **Comparative Data**: Cross-community health benchmarking
+
+## 🚀 **Deployment**
+
+### GitHub Pages Deployment
+
+1. **Enable GitHub Pages** in your repository settings
+2. **Set source branch** to `gh-pages` or `main` (with `/docs` folder)
+3. **Configure custom domain** (optional)
+
+### Vercel Deployment (Recommended)
+
+1. **Connect your GitHub repository** to Vercel
+2. **Automatic deployments** on every push to main
+3. **Preview deployments** for pull requests
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# Export static files (if using static export)
+npm run export
+
+# Deploy to your hosting provider
+```
+
+## 🔄 **CI/CD Pipeline**
+
+The repository includes GitHub Actions workflows for:
+- **Automatic building** on every push
+- **Dependency installation** and testing
+- **Build verification** and output testing
+- **Deployment preparation**
+
+## 📈 **Contributing**
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📝 License
+## 📝 **Development Workflow**
+
+### Adding New Data
+1. Place new data files in the `data/` directory
+2. Update the data context if needed
+3. Test locally with `npm run dev`
+4. Commit and push changes
+
+### Adding New Components
+1. Create component in `components/` directory
+2. Follow existing naming conventions
+3. Add TypeScript types if needed
+4. Test integration with existing components
+
+## 🐛 **Troubleshooting**
+
+### Common Issues
+
+**Build Failures**
+- Ensure Node.js version is 20.x or later
+- Clear `node_modules` and reinstall dependencies
+- Check for TypeScript errors
+
+**Data Loading Issues**
+- Verify data file paths in `contexts/data-context.tsx`
+- Check JSON file format and structure
+- Ensure data files are committed to repository
+
+**Styling Issues**
+- Verify Tailwind CSS is properly configured
+- Check component class names
+- Ensure CSS imports are correct
+
+## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## 🤝 **Support**
 
-For questions or support, please open an issue in the GitHub repository.
+- **Issues**: Report bugs and feature requests via GitHub Issues
+- **Discussions**: Join community discussions in GitHub Discussions
+- **Documentation**: Check the code comments and component documentation
 
-## 🔄 Updates
+## 🔮 **Roadmap**
 
-- **v1.0.0**: Initial dashboard with basic functionality
-- **v1.1.0**: Added actionable insights and week selection
-- **v1.2.0**: Enhanced UI with bullet points and improved layout
-- **v1.3.0**: Standardized section widths and improved responsiveness 
+- [ ] Real-time data updates
+- [ ] Additional chart types
+- [ ] Export functionality
+- [ ] User authentication
+- [ ] Custom dashboard configurations
+- [ ] API endpoints for data access
+
+---
+
+**Built with ❤️ using Next.js, React, and Tailwind CSS** 

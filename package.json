@@ -1,12 +1,14 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
+  "name": "reddit-chi-dashboard",
+  "version": "1.3.0",
+  "description": "A comprehensive dashboard for analyzing Reddit Community Health Index (CHI) data",
   "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
-    "start": "next start"
+    "build": "next build",
+    "start": "next start",
+    "export": "next build",
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -68,5 +70,25 @@
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
-  }
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "reddit",
+    "dashboard",
+    "community-health",
+    "analytics",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/reddit-chi-dashboard.git"
+  },
+  "homepage": "https://yourusername.github.io/reddit-chi-dashboard"
 }
