@@ -33,6 +33,9 @@ import week1Data from '@/data/combined.json'
 import week2Data from '@/data/combined-week2.json'
 import week3Data from '@/data/week-3.json'
 
+// Data files loaded via context
+console.log('Dashboard: Component initialized')
+
 const chartConfig = {
   composite: {
     label: "CHS Composite",
@@ -168,9 +171,17 @@ function BackToTopButton() {
   )
 }
 
-export default function Component() {
+export default function Dashboard() {
   const { currentData, selectedWeek, setSelectedWeek, weeks, isLoading, getInsights } = useData()
   
+  // Debug logging
+  console.log('Dashboard render:', {
+    selectedWeek,
+    dataLength: currentData?.length,
+    isLoading,
+    sampleData: currentData?.[0]?.subreddit
+  })
+
   // Filter out subreddits with composite score of 0 for better UX
   const validSubreddits = useMemo(() => {
     return currentData.filter((item) => item.CHS_composite !== null && Number(item.CHS_composite) > 0)

@@ -10,28 +10,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-
+    
     - name: Use Node.js 20.x
       uses: actions/setup-node@v4
       with:
         node-version: 20.x
         cache: 'npm'
-
-    - name: Check Node.js version
-      run: |
-        node --version
-        npm --version
-
+    
     - name: Install dependencies
       run: npm ci
-      env:
-        CI: true
-
+    
     - name: Build project
       run: npm run build
-      env:
-        CI: true
-
+    
     - name: Test build output
       run: |
         if [ -d ".next" ]; then
@@ -44,4 +35,4 @@ jobs:
           echo "Current directory contents:"
           ls -la
           exit 1
-        fi 
+        fi

@@ -1,76 +1,210 @@
 # Contributing to Reddit CHI Dashboard
 
-We love your input! We want to make contributing to Reddit CHI Dashboard as easy and transparent as possible, whether it's:
+Thank you for your interest in contributing to the Reddit Community Health Index Dashboard! This document provides guidelines and information for contributors.
 
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
+## 🚀 Getting Started
 
-## We Develop with Github
-We use GitHub to host code, to track issues and feature requests, as well as accept pull requests.
+### Prerequisites
+- Node.js 20.x or higher
+- npm 9.x or higher
+- Git
 
-## We Use [Github Flow](https://guides.github.com/introduction/flow/)
-We use GitHub Flow. Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
+### Setting Up Development Environment
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+1. **Fork the repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/reddit-chi-dashboard.git
+   cd reddit-chi-dashboard
+   ```
 
-## We Use [Conventional Commits](https://conventionalcommits.org/)
-We use Conventional Commits for commit messages. This helps with automated changelog generation and semantic versioning.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Commit Message Format
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📋 How to Contribute
+
+### Reporting Bugs
+
+Before creating bug reports, please check the existing issues to avoid duplicates. When creating a bug report, include:
+
+- **Clear title and description**
+- **Steps to reproduce** the issue
+- **Expected vs actual behavior**
+- **Screenshots** (if applicable)
+- **Environment details** (OS, browser, Node.js version)
+
+### Suggesting Enhancements
+
+Enhancement suggestions are welcome! Please provide:
+
+- **Clear title and description**
+- **Use case** for the enhancement
+- **Mockups or examples** (if applicable)
+- **Implementation ideas** (optional)
+
+### Pull Requests
+
+1. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+
+2. **Make your changes**
+   - Follow the coding standards
+   - Add tests if applicable
+   - Update documentation
+
+3. **Commit your changes**
+   ```bash
+   git commit -m 'Add amazing feature'
+   ```
+
+4. **Push to your branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+
+5. **Open a Pull Request**
+   - Provide a clear title and description
+   - Reference any related issues
+   - Include screenshots for UI changes
+
+## 🎨 Coding Standards
+
+### TypeScript/JavaScript
+- Use TypeScript for all new code
+- Follow ESLint configuration
+- Use meaningful variable and function names
+- Add JSDoc comments for complex functions
+
+### React Components
+- Use functional components with hooks
+- Follow the existing component structure
+- Use proper TypeScript interfaces
+- Implement proper error boundaries
+
+### Styling
+- Use Tailwind CSS classes
+- Follow the existing design system
+- Ensure responsive design
+- Test on multiple screen sizes
+
+### Git Commit Messages
+Follow the conventional commit format:
 ```
-<type>[optional scope]: <description>
+type(scope): description
 
 [optional body]
 
-[optional footer(s)]
+[optional footer]
 ```
 
-### Types
-- `feat`: A new feature
-- `fix`: A bug fix
-- `docs`: Documentation only changes
-- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
-- `refactor`: A code change that neither fixes a bug nor adds a feature
-- `perf`: A code change that improves performance
-- `test`: Adding missing tests or correcting existing tests
-- `chore`: Changes to the build process or auxiliary tools and libraries such as documentation generation
+Types:
+- `feat`: New feature
+- `fix`: Bug fix
+- `docs`: Documentation changes
+- `style`: Code style changes
+- `refactor`: Code refactoring
+- `test`: Adding tests
+- `chore`: Maintenance tasks
 
-## Any contributions you make will be under the MIT Software License
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+Examples:
+```
+feat(dashboard): add new chart component
+fix(api): resolve data loading issue
+docs(readme): update installation instructions
+```
 
-## Report bugs using Github's [issue tracker](https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable/issues)
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable/issues/new); it's that easy!
+## 🧪 Testing
 
-## Write bug reports with detail, background, and sample code
+### Running Tests
+```bash
+npm run test
+```
 
-**Great Bug Reports** tend to have:
+### Writing Tests
+- Write unit tests for utility functions
+- Add integration tests for components
+- Test edge cases and error scenarios
+- Maintain good test coverage
 
-- A quick summary and/or background
-- Steps to reproduce
-  - Be specific!
-  - Give sample code if you can.
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
+## 📚 Documentation
 
-## Use a Consistent Coding Style
+### Code Documentation
+- Add JSDoc comments for functions
+- Document complex algorithms
+- Include usage examples
 
-* 2 spaces for indentation rather than tabs
-* 80 character line length
-* Run `npm run lint` to conform to our lint rules
-* Use TypeScript for all new code
-* Follow the existing component patterns
+### README Updates
+- Update README for new features
+- Keep installation instructions current
+- Add screenshots for UI changes
 
-## License
-By contributing, you agree that your contributions will be licensed under its MIT License.
+## 🔍 Code Review Process
 
-## References
-This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md). 
+1. **Automated Checks**
+   - All CI checks must pass
+   - Code must build successfully
+   - Tests must pass
+
+2. **Manual Review**
+   - Code quality and standards
+   - Functionality and user experience
+   - Documentation completeness
+
+3. **Approval and Merge**
+   - At least one maintainer approval required
+   - Squash and merge preferred
+   - Delete feature branch after merge
+
+## 🏷️ Release Process
+
+1. **Version Bumping**
+   - Follow semantic versioning
+   - Update CHANGELOG.md
+   - Tag releases appropriately
+
+2. **Deployment**
+   - Automatic deployment to Vercel
+   - Monitor for deployment issues
+   - Rollback if necessary
+
+## 📞 Getting Help
+
+- **GitHub Issues**: For bugs and feature requests
+- **GitHub Discussions**: For questions and general discussion
+- **Email**: For security issues or private matters
+
+## 📄 License
+
+By contributing to this project, you agree that your contributions will be licensed under the MIT License.
+
+## 🙏 Recognition
+
+Contributors will be recognized in:
+- README.md contributors section
+- Release notes for significant contributions
+- Special mentions for outstanding contributions
+
+## 📋 Checklist for Contributors
+
+Before submitting a pull request:
+
+- [ ] Code follows the style guidelines
+- [ ] Self-review of code completed
+- [ ] Code is commented, particularly complex areas
+- [ ] Documentation updated if needed
+- [ ] Tests added/updated and passing
+- [ ] No breaking changes (or clearly documented)
+- [ ] Issue linked to pull request
+
+Thank you for contributing to the Reddit CHI Dashboard! 🎉

@@ -1,14 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable static export for GitHub Pages
-  output: 'export',
-  
-  // Disable image optimization for static export
+  // Disable image optimization for Vercel deployment
   images: {
     unoptimized: true,
   },
   
-  // Ignore ESLint and TypeScript errors during build
+  // Ignore ESLint and TypeScript errors during build (for faster deployment)
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -16,11 +13,10 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   
-  // Base path for GitHub Pages (update this with your repo name)
-  basePath: process.env.NODE_ENV === 'production' ? '/reddit-chi-dashboard-final-deliverable' : '',
-  
-  // Trailing slash for GitHub Pages compatibility
-  trailingSlash: true,
+  // Enable experimental features for better performance
+  experimental: {
+    optimizePackageImports: ['recharts', 'lucide-react'],
+  },
 }
 
 export default nextConfig
