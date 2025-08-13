@@ -12,7 +12,7 @@ This guide will walk you through deploying your Reddit CHI Dashboard to GitHub P
 
 ### 1. **Enable GitHub Pages**
 
-1. Go to your repository on GitHub
+1. Go to your repository on GitHub: [https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable](https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable)
 2. Click **Settings** tab
 3. Scroll down to **Pages** section
 4. Under **Source**, select **GitHub Actions**
@@ -34,15 +34,15 @@ Update the following files with your actual GitHub username and repository name:
 ```json
 {
   "repository": {
-    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+    "url": "https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable.git"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPO_NAME"
+  "homepage": "https://nkondav3.github.io/reddit-chi-dashboard-final-deliverable"
 }
 ```
 
 **`next.config.mjs`:**
 ```javascript
-basePath: process.env.NODE_ENV === 'production' ? '/YOUR_REPO_NAME' : '',
+basePath: process.env.NODE_ENV === 'production' ? '/reddit-chi-dashboard-final-deliverable' : '',
 ```
 
 ### 2. **Test Local Build**
@@ -86,7 +86,7 @@ git push origin main
 
 Once deployed, your dashboard will be available at:
 ```
-https://YOUR_USERNAME.github.io/YOUR_REPO_NAME
+https://nkondav3.github.io/reddit-chi-dashboard-final-deliverable
 ```
 
 ## 🔄 **Manual Deployment (Alternative)**
@@ -153,7 +153,7 @@ npm run export
 1. In repository **Settings** → **Pages**
 2. Enter your domain in **Custom domain**
 3. Click **Save**
-4. Add CNAME record pointing to `YOUR_USERNAME.github.io`
+4. Add CNAME record pointing to `nkondav3.github.io`
 
 ### 2. **Update Configuration**
 
