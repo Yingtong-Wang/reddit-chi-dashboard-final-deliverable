@@ -56,8 +56,8 @@ A comprehensive dashboard for analyzing and visualizing Reddit Community Health 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/reddit-chi-dashboard.git
-   cd reddit-chi-dashboard
+   git clone https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable.git
+   cd reddit-chi-dashboard-final-deliverable
    ```
 
 2. **Install dependencies**
@@ -108,9 +108,7 @@ reddit-chi-dashboard/
 
 ## 🌐 **Deployed Dashboard**
 
-**Live Dashboard**: [https://yourusername.github.io/reddit-chi-dashboard](https://yourusername.github.io/reddit-chi-dashboard)
-
-*Note: Update this URL after setting up GitHub Pages deployment*
+**Live Dashboard**: [https://nkondav3.github.io/reddit-chi-dashboard-final-deliverable](https://nkondav3.github.io/reddit-chi-dashboard-final-deliverable)
 
 ## 🔧 **Data Sources**
 

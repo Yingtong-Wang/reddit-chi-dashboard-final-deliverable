@@ -17,7 +17,7 @@ const nextConfig = {
   },
   
   // Base path for GitHub Pages (update this with your repo name)
-  basePath: process.env.NODE_ENV === 'production' ? '/reddit-chi-dashboard' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/reddit-chi-dashboard-final-deliverable' : '',
   
   // Trailing slash for GitHub Pages compatibility
   trailingSlash: true,

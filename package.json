@@ -84,11 +84,11 @@
     "react",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Navya Kondaveeti",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/reddit-chi-dashboard.git"
+    "url": "https://github.com/nkondav3/reddit-chi-dashboard-final-deliverable.git"
   },
-  "homepage": "https://yourusername.github.io/reddit-chi-dashboard"
+  "homepage": "https://nkondav3.github.io/reddit-chi-dashboard-final-deliverable"
 }
