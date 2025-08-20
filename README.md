@@ -4,7 +4,7 @@ A comprehensive, interactive dashboard for analyzing Reddit Community Health Ind
 
 ## 🌐 **Deployed Dashboard**
 
-**Live Dashboard**: [https://reddit-chi-dashboard-final-deliverable.vercel.app](https://reddit-chi-dashboard-final-deliverable.vercel.app)
+**Live Dashboard**: https://reddit-chi-dashboard-final-delivera-seven.vercel.app/
 
 ## ✨ **Features**
 
